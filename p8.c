@@ -1,6 +1,6 @@
 #include<stdio.h>
-//#include<conio.h>
 #define max 10
+
 int s[max],x[max],d;
 
 void sumofsub(int p,int k,int r)
@@ -40,5 +40,5 @@ void main()
         printf("No possible subset\n");
     else
         sumofsub(0,1,sum);
-   // getch();
+    getchar();
 }
